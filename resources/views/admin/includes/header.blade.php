@@ -37,3 +37,4 @@
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="{{ url('public/assest/favicon.ico') }}" />
+        

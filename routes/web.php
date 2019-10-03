@@ -11,6 +11,6 @@
 |
 */
 
-Route::get('/', 'admin\CkeditorController@index');
-Route::match(['get', 'post'], 'ckeditor', ['as' => 'ckeditor', 'uses' => 'admin\CkeditorController@index']);
+//Route::get('/', 'admin\CkeditorController@index');
+Route::match(['get', 'post'], '/', ['as' => 'ckeditor', 'uses' => 'admin\CkeditorController@index']);
 

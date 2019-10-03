@@ -11,7 +11,7 @@ class CkeditorController extends Controller
         
     }
     
-    public function index(){
+    public function index(Request $request){
         $data['title'] = 'CKEditor - Demo';
         $data['css'] = array();
         $data['plugincss'] = array();
