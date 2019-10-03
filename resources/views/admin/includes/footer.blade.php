@@ -60,8 +60,12 @@
 <script src="{{ url('public/assest/lib/list_js/plugins/paging/list.paging.min.js') }}"></script>
 
 <script src="{{ url('public/assest/js/pages/gebo_dashboard.js') }}"></script>
+<script src="https://cdn.scaleflex.it/plugins/filerobot-image-editor/2/filerobot-image-editor.min.js?v3"></script>
+<script>
+  const ImageEditor = new FilerobotImageEditor();
 
-
+  ImageEditor.open('https://scaleflex.airstore.io/demo/stephen-walker-unsplash.jpg');
+</script>
 <script>
 	InlineEditor.create( document.querySelector( '#editor' ) )
 		.then( editor => {
